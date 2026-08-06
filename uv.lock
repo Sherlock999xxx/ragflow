@@ -3124,11 +3124,11 @@ wheels = [
 
 [[package]]
 name = "json-repair"
-version = "0.60.1"
+version = "0.62.0"
 source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
-sdist = { url = "https://mirrors.aliyun.com/pypi/packages/5e/a6/d69888cb4ffde30e80db1e6c32caaadd2f984a80067d5ea72c2cb3f61c3f/json_repair-0.60.1.tar.gz", hash = "sha256:841661cdd2df507c9a4e189097f38ca6bc372e06d4b4e36d72e590f68176c290" }
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/82/f0/99922cd499612b1eb70f177d34f7f34a489bb0255c946992ca70415a7288/json_repair-0.62.0.tar.gz", hash = "sha256:578bdfe4b3e177ad5a93a0f4e31ec71c953b2a282c72403ddd0c77058fae0d83" }
 wheels = [
-    { url = "https://mirrors.aliyun.com/pypi/packages/32/1f/2a2b5eea8ef5762a86ad3f8fddddaaba2c0d76dd44e644b9158900868bec/json_repair-0.60.1-py3-none-any.whl", hash = "sha256:ba6ff974f2a8bef2f7768144a7f03f870a816443f03da27a49cdd0ec31a78049" },
+    { url = "https://mirrors.aliyun.com/pypi/packages/63/45/924a75372c1a264068158eb5b557932d15a4e42cbbb9e14a73ca076d3c01/json_repair-0.62.0-py3-none-any.whl", hash = "sha256:1ea917bb2eae205a2c012ab2aa1c0bc6ea9ac708836d203577fac46fcd84f443" },
 ]
 
 [[package]]
@@ -3413,7 +3413,7 @@ wheels = [
 
 [[package]]
 name = "litellm"
-version = "1.84.0"
+version = "1.95.0"
 source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -3429,9 +3429,11 @@ dependencies = [
     { name = "tiktoken" },
     { name = "tokenizers" },
 ]
-sdist = { url = "https://mirrors.aliyun.com/pypi/packages/dd/e9/8941b7e72a187000561d932c0f2f2ed2b0fd080dfc33ba6e05961d45ca7d/litellm-1.84.0.tar.gz", hash = "sha256:b8ad0cbea11a5941b18d5af973017a340abd3d3ab41cb86e5401b970626d71a6" }
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/0e/96/8cdfb9aaf584b57af35a0423c111a1c1264a78b548cebbb5ed96defacdab/litellm-1.95.0.tar.gz", hash = "sha256:0ef126d52c7a559f8353e50d60fd0d5e7e6c8767ad54df25ddaf79b9edca1afc" }
 wheels = [
-    { url = "https://mirrors.aliyun.com/pypi/packages/01/a6/77fa1bbf5e42eb596b06318b3f7e6af5d0f44028046d1d598c6a595d028f/litellm-1.84.0-py3-none-any.whl", hash = "sha256:2a58d6041e6aa27d1a28dc8d8828ab500fef1a00ef74ca65e60899035010c2f2" },
+    { url = "https://mirrors.aliyun.com/pypi/packages/fd/47/719785f65b01779cf7568c329430c93b2e7832498deb3deec53bdd106f8d/litellm-1.95.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:9d80a9adc506bfce48145621d6649e3fd428407811eb00211bcce33344054701" },
+    { url = "https://mirrors.aliyun.com/pypi/packages/55/48/06447e1125d7ae31bd24d34d2af2833b15aed79dc5f7e8b45862c1d06af8/litellm-1.95.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:cf014ff515825ad49937b4cdf95616270789311db7841d16702e0a5b1ac5b067" },
+    { url = "https://mirrors.aliyun.com/pypi/packages/45/6f/388f85ebcb4e239dc738cab99307051d5a8a69d907023b0dbb200ee95226/litellm-1.95.0-cp313-cp313-win_amd64.whl", hash = "sha256:c73df441153e585832d4e90e3717d17ae888b269daa71d723336369e81ef884b" },
 ]
 
 [[package]]
@@ -5027,16 +5029,16 @@ wheels = [
 
 [[package]]
 name = "pydantic-settings"
-version = "2.12.0"
+version = "2.14.2"
 source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "typing-inspection" },
 ]
-sdist = { url = "https://mirrors.aliyun.com/pypi/packages/43/4b/ac7e0aae12027748076d72a8764ff1c9d82ca75a7a52622e67ed3f765c54/pydantic_settings-2.12.0.tar.gz", hash = "sha256:005538ef951e3c2a68e1c08b292b5f2e71490def8589d4221b95dab00dafcfd0" }
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/5c/b5/8f48e906c3e0205276e8bd8cb7512217a87b2685304d64be27cad5b3019f/pydantic_settings-2.14.2.tar.gz", hash = "sha256:c19dd64b19097f1de80184f0cc7b0272a13ae6e170cbf240a3e27e381ed14a5f" }
 wheels = [
-    { url = "https://mirrors.aliyun.com/pypi/packages/c1/60/5d4751ba3f4a40a6891f24eec885f51afd78d208498268c734e256fb13c4/pydantic_settings-2.12.0-py3-none-any.whl", hash = "sha256:fddb9fd99a5b18da837b29710391e945b1e30c135477f484084ee513adb93809" },
+    { url = "https://mirrors.aliyun.com/pypi/packages/77/c1/6e422f34e569cf8e18df68d1939c81c099d2b61e4f7d9621c8a77560799c/pydantic_settings-2.14.2-py3-none-any.whl", hash = "sha256:a20c97b37910b6550d5ea50fbcc2d4187defe58cd57070b73863d069419c9440" },
 ]
 
 [[package]]
@@ -8252,12 +8254,12 @@ requires-dist = [
     { name = "infinity-emb", specifier = ">=0.0.66,<0.0.67" },
     { name = "infinity-sdk", specifier = "==0.7.2" },
     { name = "jira", specifier = "==3.10.5" },
-    { name = "json-repair", specifier = "==0.60.1" },
+    { name = "json-repair", specifier = "==0.62.0" },
     { name = "langfuse", specifier = ">=4.0.1" },
     { name = "langgraph", specifier = "==1.2.0" },
     { name = "lark-oapi", specifier = ">=1.2.0" },
     { name = "line-bot-sdk", specifier = ">=3.0.0" },
-    { name = "litellm", specifier = "==1.84.0" },
+    { name = "litellm", specifier = "==1.95.0" },
     { name = "mammoth", specifier = ">=1.11.0" },
     { name = "markdown", specifier = ">=3.8.1,<4.0.0" },
     { name = "markdown-to-json", specifier = "==2.1.1" },
